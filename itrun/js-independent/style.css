@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#logic__drop{
+  display: none;
+}
+.active-drop{
+  display: block !important;
+}

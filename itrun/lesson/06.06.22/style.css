@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.item{
+  width:200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left:0;
+  background: #00FF00;
+
+}
+.main{
+  width: /;
+  height: 100vh;
+  background: #003333;
+  position: relative;
+}
+.points{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 50px;
+  color: white;
+  z-index: 1;
+}

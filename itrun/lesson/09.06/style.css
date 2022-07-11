@@ -1,0 +1,32 @@
+
+main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;align-items: center;
+}
+.start{
+  padding: 15px 30px;
+  background: #996666;
+  color: white;
+  vertical-align: 8px;
+  font-size: 20px;
+  border:none;
+  text-transform: uppercase;
+  font-size: 700;
+
+}
+.start:active{
+  transform: translate(3px,3px);
+  transition: 0.25s ease all;
+}
+.window{
+  position: absolute;
+  font-size: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: black;
+
+}

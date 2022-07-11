@@ -1,0 +1,123 @@
+*,h2{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: black;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/* styles */
+
+
+main{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.header__inner{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a{
+  margin: 0 20px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+.main__img img{
+  width: 750px;
+
+}
+.main__inner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main__img {
+  width: 50%;
+}
+.main__text{
+  width: 50%;
+}
+.main__text h2:first-child{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 144px;
+opacity: 0.5;
+}
+
+.main__text h2:last-child{
+  color: white;
+  font-weight: 700;
+font-size: 72px;
+}
+
+
+/* explore */
+.explore{
+  width: 100%;
+  background: black;
+  padding: 100px 0;
+}
+.explore__item{
+  padding: 10px;
+      width: 29%;
+
+      margin: 15px;
+      background: white;
+      border-radius: 25px;
+}
+.explore__item__text{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.explore__item__text__price{
+  color: #F8BB22;
+  font-weight: 700;
+font-size: 24px;
+}
+.explore__item__text__p{
+  width: 70%;
+}
+
+.explore__inner{
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+/* app */
+.app{
+  width: 100%;
+  padding: 100px 0;
+  color: white;
+}
+.app__inner{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app__text{
+  /* width: 50%; */
+}
+.app__img{
+  /* width: 50%; */
+}
